@@ -1,0 +1,10 @@
+version: 1.0
+app:
+  maven:
+    groupId: "libertyDefaultApplication"
+    artifactId: "libertyDefaultApplication"
+    version: "1.0.1"
+    type: ear
+  instances:
+    min: 2
+    max: 4
